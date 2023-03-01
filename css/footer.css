@@ -1,0 +1,150 @@
+@charset "utf-8";
+
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #1D3557;
+  padding: 3rem 0;
+  text-align: center;
+}
+
+footer h1 {
+  display: block;
+  color: #F1FAEE;
+  font-family: 'Sansita', sans-serif;
+  font-size: 34px;
+}
+
+footer div.menu__footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+footer div.menu__footer nav {
+  display: block;
+}
+
+footer div.menu__footer nav ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
+
+footer div.menu__footer nav ul li {
+  display: block;
+  list-style: none;
+  margin: 1rem .5rem;
+}
+
+footer div.menu__footer nav ul li a {
+  display: block;
+  color: #F1FAEE;
+  font-family: 'Sansita', sans-serif;
+  padding: .5rem .5rem;
+  font-size: 20px;
+}
+
+footer div.menu__footer nav ul li a::after {
+  content: '';
+  display: block;
+  margin: 0 auto;
+  position: relative;
+  height: 2px;
+  width: 100%;
+  background-color: #E63946;
+  top: 6px;
+}
+
+footer div.contato___footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+
+footer div.contato___footer div.sociais {
+  display: block;
+  margin-top: 30px;
+}
+
+footer div.contato___footer div.sociais a {
+  display: inline-block;
+  margin: 0 .4rem;
+  position: relative;
+  top: 0;
+  transition: .4s;
+  -o-transition: .4s;
+  -moz-transition: .4s;
+  -webkit-transition: .4s;
+}
+
+footer div.contato___footer div.sociais a:hover {
+  top: -10px;
+}
+
+footer div.endereco___footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+
+footer div.endereco___footer address {
+  display: block;
+  text-align: center;
+  color: #ffffff;
+  font-family: 'Sansita', sans-serif;
+  font-size: 20px;
+  line-height: 24px;
+  margin-top: 30px;
+}
+
+footer div.buscar___footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  margin-top: 50px;
+}
+
+footer div.buscar___footer form {
+  display: block;
+  margin-top: 20px;
+}
+
+footer div.buscar___footer form input {
+  display: block;
+  background-color: #F1FAEE;
+  border: 0 none;
+  border-radius: 5px;
+  height: 27px;
+  margin-top: 20px;
+}
+
+footer div.buscar___footer form input::placeholder {
+  padding-left: 18px;
+  color: #BDCECF;
+  font-family: 'Sansita', sans-serif;
+}
+
+@media screen and (min-width: 768px) {
+  footer {
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+
+  footer div.contato___footer, footer div.endereco___footer, footer div.buscar___footer {
+    margin-top: 0;
+  }
+}
