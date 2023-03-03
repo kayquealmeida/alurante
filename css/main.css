@@ -102,6 +102,10 @@ section.cardapio div.cardapios__pratos div.prato {
   align-items: center;
 }
 
+section.cardapio div.cardapios__pratos div.hidden {
+  display: none;
+}
+
 section.cardapio div.cardapios__pratos img {
   display: block;
   margin: 15px;
@@ -163,10 +167,6 @@ section.blog__alurante div.noticias img {
 
   section.cardapio div.cardapios__pratos div.prato {
     justify-content: space-between;
-  }
-
-  section.cardapio div.cardapios__pratos div.hidden {
-    display: none;
   }
 
   section.cardapio div.cardapios__pratos img {
