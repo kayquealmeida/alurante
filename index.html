@@ -12,6 +12,7 @@
   <link rel="stylesheet" href="css/header.css">
   <link rel="stylesheet" href="css/main.css">
   <link rel="stylesheet" href="css/footer.css">
+  <link rel="stylesheet" href="css/animationMenu.css">
 </head>
 
 <body>
@@ -28,7 +29,76 @@
     </nav>
   </header>
   <main>
-
+    <section class="cardapio">
+      <h1>
+        CARDÁPIO
+      </h1>
+      <form action="" id="buscaCardapio">
+        <input type="text" name="busca" id="busca" placeholder="buscar...">
+      </form>
+      <div class="btns__cardapio">
+        <span class="btnCardapio active" data-prato="carne">Carne</span>
+        <span class="btnCardapio" data-prato="massa">Massa</span>
+        <span class="btnCardapio" data-prato="vegano">Vegano</span>
+        <span class="btnCardapio" data-prato="bebidas">Bebidas</span>
+      </div>
+      <div class="cardapios__pratos">
+        <div class="prato" data-prato="carne">
+          <img src="images/prato__carne.jpg" alt="Carne Pratos">
+          <img src="images/prato__carne.jpg" alt="Carne Pratos">
+          <img src="images/prato__carne.jpg" alt="Carne Pratos">
+          <img src="images/prato__carne.jpg" alt="Carne Pratos">
+          <img src="images/prato__carne.jpg" alt="Carne Pratos">
+          <img src="images/prato__carne.jpg" alt="Carne Pratos">
+          <img src="images/prato__carne.jpg" alt="Carne Pratos">
+          <img src="images/prato__carne.jpg" alt="Carne Pratos">
+          <img src="images/prato__carne.jpg" alt="Carne Pratos">
+        </div>
+        <div class="prato hidden" data-prato="massa">
+          <img src="images/prato__carne.jpg" alt="Massa Pratos">
+          <img src="images/prato__carne.jpg" alt="Massa Pratos">
+          <!-- <img src="images/prato__carne.jpg" alt="Massa Pratos">
+          <img src="images/prato__carne.jpg" alt="Massa Pratos">
+          <img src="images/prato__carne.jpg" alt="Massa Pratos">
+          <img src="images/prato__carne.jpg" alt="Massa Pratos">
+          <img src="images/prato__carne.jpg" alt="Massa Pratos">
+          <img src="images/prato__carne.jpg" alt="Massa Pratos">
+          <img src="images/prato__carne.jpg" alt="Massa Pratos"> -->
+        </div>
+        <div class="prato hidden" data-prato="vegano">
+          <img src="images/prato__carne.jpg" alt="Vegano Pratos">
+          <img src="images/prato__carne.jpg" alt="Vegano Pratos">
+          <img src="images/prato__carne.jpg" alt="Vegano Pratos">
+          <!-- <img src="images/prato__carne.jpg" alt="Vegano Pratos">
+          <img src="images/prato__carne.jpg" alt="Vegano Pratos">
+          <img src="images/prato__carne.jpg" alt="Vegano Pratos">
+          <img src="images/prato__carne.jpg" alt="Vegano Pratos">
+          <img src="images/prato__carne.jpg" alt="Vegano Pratos">
+          <img src="images/prato__carne.jpg" alt="Vegano Pratos"> -->
+        </div>
+        <div class="prato hidden" data-prato="bebidas">
+          <img src="images/prato__carne.jpg" alt="Bebidas Pratos">
+          <img src="images/prato__carne.jpg" alt="Bebidas Pratos">
+          <img src="images/prato__carne.jpg" alt="Bebidas Pratos">
+          <img src="images/prato__carne.jpg" alt="Bebidas Pratos">
+          <!-- <img src="images/prato__carne.jpg" alt="Bebidas Pratos">
+          <img src="images/prato__carne.jpg" alt="Bebidas Pratos">
+          <img src="images/prato__carne.jpg" alt="Bebidas Pratos">
+          <img src="images/prato__carne.jpg" alt="Bebidas Pratos">
+          <img src="images/prato__carne.jpg" alt="Bebidas Pratos"> -->
+        </div>
+      </div>
+    </section>
+    <section class="blog__alurante">
+      <h1>
+        Blog
+      </h1>
+      <div class="noticias">
+        <img src="images/blog__image-1.svg" alt="Blog noticia 1">
+        <img src="images/blog__image-2.svg" alt="Blog noticia 2">
+        <img src="images/blog__image-3.svg" alt="Blog noticia 3">
+      </div>
+    </section>
   </main>
   <footer>
     <div class="menu__footer">
@@ -75,6 +145,7 @@
       </form>
     </div>
   </footer>
+  <script src="js/pratosCardapio.js"></script>
 </body>
 
 </html>

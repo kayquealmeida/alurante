@@ -1,0 +1,12 @@
+.hidden {
+  animation: slideUP .5s forwards;
+}
+
+@keyframes slideUP {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
