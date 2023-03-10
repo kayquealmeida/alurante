@@ -5,18 +5,26 @@ header {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: #1D3557;
+  background-color: var(--header-background);
   padding: 2rem 0 3rem 0;
 }
 
-header a#logo__site {
+.header__sobre {
+  background-color: var(--header-sobre-background);
+}
+
+.header__logo {
   display: block;
   width: 209px;
   height: 57px;
-  color: #A8DADC;
+  color: var(--logo-color);
   font-family: 'Zeyada', cursive;
   text-align: center;
   font-size: 64px;
+}
+
+.hl-sobre{
+  color: var(--logo-sobre-color);
 }
 
 header nav {
@@ -39,7 +47,7 @@ header nav ul li {
 
 header nav ul li a {
   display: block;
-  color: #F1FAEE;
+  color: var(--nav-option-color);
   font-family: 'Sansita', sans-serif;
   padding: .5rem .5rem;
   font-size: 20px;
@@ -74,6 +82,13 @@ header nav ul li a:hover::after {
   background-color: #fff;
 }
 
+.header__sobre__menu--navigation--list--item--link {
+  color: var(--nav-sobre-option-color);
+}
+
+.header__sobre__menu--navigation--list--item--link:hover {
+  color: #4274bb;
+}
 
 @media screen and (min-width: 768px) {
   header {

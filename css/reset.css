@@ -4,6 +4,7 @@
 /* Fonts */
     @import url('https://fonts.googleapis.com/css2?family=Zeyada&display=swap');
     @import url('https://fonts.googleapis.com/css2?family=Sansita&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 /* Fonts */
 
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong,
@@ -42,11 +43,11 @@ table{
 
 /* Interface para definir espaçamento do conteúdo do site */
 
-div.interface{
-    min-width: 320px;
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     max-width: 1200px;
-    width: 100%;
-    margin: 0 auto;
-    text-align: center;
-    position: relative;
 }

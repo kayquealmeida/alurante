@@ -1,10 +1,10 @@
-main {
+.main {
   display: flex;
   justify-content: center;
   flex-direction: column;
   align-items: center;
   width: 100%;
-  background-color: #457b9d;
+  background-color: var(--main-background);
 }
 
 section.cardapio {
@@ -19,7 +19,7 @@ section.cardapio {
 
 section.cardapio h1 {
   display: block;
-  color: #F1FAEE;
+  color: var(--title-color);
   font-size: 34px;
   font-family: 'Sansita', sans-serif;
 }
@@ -31,7 +31,7 @@ section.cardapio form#buscaCardapio {
 section.cardapio form#buscaCardapio input {
   display: block;
   width: 230px;
-  background-color: #F1FAEE;
+  background-color: var(--input-busca-background);
   border: 0 none;
   border-radius: 5px;
   height: 27px;
@@ -40,7 +40,7 @@ section.cardapio form#buscaCardapio input {
 
 section.cardapio form#buscaCardapio input::placeholder {
   padding-left: 18px;
-  color: #BDCECF;
+  color: var(--input-busca-color);
   font-family: 'Sansita', sans-serif;
 }
 
@@ -128,7 +128,7 @@ section.blog__alurante h1 {
   display: block;
   font-family: 'Sansita', sans-serif;
   font-size: 34px;
-  color: #1D3557;
+  color: var(--title-blog-color);
 }
 
 section.blog__alurante div.noticias {

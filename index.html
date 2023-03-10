@@ -9,6 +9,7 @@
   <meta name="keywords" content="">
   <title>Bem vindo ao Alurante!</title>
   <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/colors.css">
   <link rel="stylesheet" href="css/header.css">
   <link rel="stylesheet" href="css/main.css">
   <link rel="stylesheet" href="css/footer.css">
@@ -16,8 +17,8 @@
 </head>
 
 <body>
-  <header>
-    <a href="index.html" id="logo__site">Alurante</a>
+  <header class="header">
+    <a href="index.html" class="header__logo">Alurante</a>
     <nav>
       <ul>
         <li><a href="index.html">home</a></li>
@@ -28,7 +29,7 @@
       </ul>
     </nav>
   </header>
-  <main>
+  <main class="main">
     <section class="cardapio">
       <h1>
         CARDÁPIO
@@ -100,48 +101,56 @@
       </div>
     </section>
   </main>
-  <footer>
-    <div class="menu__footer">
-      <h1>
+  <footer class="footer">
+    <div class="footer__menu">
+      <h1 class="footer__title">
         MENU
       </h1>
-      <nav>
-        <ul>
-          <li><a href="index.html">home</a></li>
-          <li><a href="sobre/">sobre</a></li>
-          <li><a href="delivery/">delivery</a></li>
-          <li><a href="reserva/">reserva</a></li>
-          <li><a href="contato/">contato</a></li>
+      <nav class="footer__menu--navigation">
+        <ul class="footer__menu--navigation--list">
+          <li class="footer__menu--navigation--list--item"><a href="index.html"
+              class="footer__menu--navigation--list--item--link">home</a></li>
+          <li class="footer__menu--navigation--list--item"><a href="sobre/"
+              class="footer__menu--navigation--list--item--link">sobre</a></li>
+          <li class="footer__menu--navigation--list--item"><a href="delivery/"
+              class="footer__menu--navigation--list--item--link">delivery</a></li>
+          <li class="footer__menu--navigation--list--item"><a href="reserva/"
+              class="footer__menu--navigation--list--item--link">reserva</a></li>
+          <li class="footer__menu--navigation--list--item"><a href="contato/"
+              class="footer__menu--navigation--list--item--link">contato</a></li>
         </ul>
       </nav>
     </div>
-    <div class="contato___footer">
-      <h1>
+    <div class="footer__contato">
+      <h1 class="footer__title">
         CONTATO
       </h1>
-      <div class="sociais">
-        <a href="#mail"><img src="images/email-icon.svg" alt="Email Icon"></a>
-        <a href="#phone"><img src="images/telephone-icon.svg" alt="Telephone Icon"></a>
-        <a href="#instagram"><img src="images/instagram-icon.svg" alt="Instagram Icon"></a>
-        <a href="#twitter"><img src="images/twitter-icon.svg" alt="Twitter Icon"></a>
+      <div class="footer__contato__sociais">
+        <a href="#mail" class="footer__contato__sociais--link"><img src="images/email-icon.svg" alt="Email Icon"></a>
+        <a href="#phone" class="footer__contato__sociais--link"><img src="images/telephone-icon.svg"
+            alt="Telephone Icon"></a>
+        <a href="#instagram" class="footer__contato__sociais--link"><img src="images/instagram-icon.svg"
+            alt="Instagram Icon"></a>
+        <a href="#twitter" class="footer__contato__sociais--link"><img src="images/twitter-icon.svg"
+            alt="Twitter Icon"></a>
       </div>
     </div>
-    <div class="endereco___footer">
-      <h1>
+    <div class="footer__endereco">
+      <h1 class="footer__title">
         ENDEREÇO
       </h1>
-      <address>
+      <address class="footer__endereco--address">
         Rua vergueiro, 3185<br>
         Vila Mariana, São Paulo - SP<br>
         Cep: 04101-300
       </address>
     </div>
-    <div class="buscar___footer">
-      <h1>
+    <div class="footer__search">
+      <h1 class="footer__title">
         BUSCAR
       </h1>
-      <form action="">
-        <input type="text" placeholder="buscar...">
+      <form action="" class="footer__search__form">
+        <input type="text" placeholder="buscar..." class="footer__search__form--input">
       </form>
     </div>
   </footer>

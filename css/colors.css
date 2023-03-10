@@ -1,0 +1,27 @@
+:root {
+  --header-background: #1D3557;
+  --header-sobre-background: #A8DADC;
+  --footer-background: #1D3557;
+  --logo-color: #A8DADC;
+  --logo-sobre-color: #1D3557;
+  --title-color: #F1FAEE;
+  --title-sobre-color: #1D3557;
+  --nav-option-color: #F1FAEE;
+  --nav-sobre-option-color: #1D3557;
+  --title-blog-color: #1D3557;
+  --main-background: #457b9d;
+  --main-sobre-background: #F1FAEE;
+  --input-busca-color: #BDCECF;
+  --input-busca-background: #F1FAEE;
+  --historia-background: #1D3557;
+  --nossaHistoria-color: #457B9D;
+  --saberMaisBtn-background: #ffffff;
+  --saberMaisBtn-color: #457B9D;
+  --saberMaisBtn-borderColor: #457B9D;
+  --sobrenos-card-background: #457B9D;
+  --sobrenos-card-person-color: #1D3557;
+  --nossomenu-background: #1D3557;
+  --nossomenu-tittle-color: #457B9D;
+  --nossasunidades-tittle-color: #1D3557;
+  --nossasunidades-text-color: #1D3557;
+}
