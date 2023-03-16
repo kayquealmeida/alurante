@@ -1,0 +1,154 @@
+.main {
+  background-color: var(--main-sobre-background);
+  padding-bottom: 4rem;
+}
+
+.titulo {
+  display: inline-block;
+  width: 100%;
+  padding: 3rem 0;
+}
+
+.titulo__cadastro {
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+  font-family: "Zeyada", cursive;
+  color: var(--nav-sobre-option-color);
+  font-size: 4em;
+}
+
+.formulario {
+  width: 100%;
+  max-width: 817px;
+  background-color: var(--header-sobre-background);
+  box-sizing: border-box;
+  padding: 2rem 0;
+}
+
+.formulario__filds {
+  display: block;
+  margin: 2rem 0;
+}
+
+.formulario__titulo {
+  display: block;
+  color: var(--nossasunidades-text-color);
+  font-family: "Montserrat", sans-serif;
+  font-size: 2.25em;
+  text-align: center;
+}
+
+.formulario__legenda {
+  display: block;
+  margin-bottom: 2rem;
+  text-align: center;
+  color: var(--nossasunidades-text-color);
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.5em;
+}
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  box-sizing: border-box;
+  width: 95%;
+  position: relative;
+  margin: 0 auto 1.5rem auto;
+}
+
+.input-label {
+  display: block;
+  padding-left: .1rem;
+  font-size: 1.5em;
+  color: var(--nossasunidades-text-color);
+  font-family: "Montserrat", sans-serif;
+}
+
+.input {
+  height: 3.38rem;
+  padding-left: 1rem;
+  font-size: 1.25em;
+  margin-top: .5rem;
+  font-family: "Montserrat", sans-serif;
+  color: var(--input-secondary-color);
+  border: 0 none;
+  border-radius: .5rem;
+  -webkit-box-shadow: 0px 5px 9px -1px rgba(0,0,0,0.4);
+  -moz-box-shadow: 0px 5px 9px -1px rgba(0,0,0,0.4);
+  box-shadow: 0px 5px 9px -1px rgba(0,0,0,0.4);
+}
+
+.input-container--invalido .input {
+  border: 1px solid var(--warning-color);
+  border-radius: 7px;
+}
+
+.input-container--invalido .input-label {
+  color: var(--warning-color);
+}
+
+.input-mensagem-erro {
+  display: none;
+}
+
+.input-container--invalido .input-mensagem-erro {
+  color: var(--warning-color);
+  display: block;
+  margin-top: 0.5rem;
+  padding-left: 0.5rem;
+  font-family: "Montserrat", sans-serif;
+}
+
+.formulario__cadastrar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cadastrar__btn {
+  display: block;
+  padding: 1.5rem 4.12rem;
+  text-align: center;
+  background-color: #ffffff;
+  color: var(--nossaHistoria-color);
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.2em;
+  cursor: pointer;
+  border: 2px solid var(--input-border-color);
+  border-radius: .4rem;
+  box-shadow: 0px 8px 8px -7px rgba(0,0,0,.5);
+  -o-transition: .4s;
+  -moz-transition: .4s;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.cadastrar__btn:hover {
+  background-color: var(--nossaHistoria-color);
+  color: #ffffff;
+  border: 2px solid #ffffff;
+  box-shadow: 10px 14px 8px -7px rgba(0,0,0,.5);
+}
+
+@media screen and (min-width: 768px) {
+  .formulario {
+    padding: 3rem 0;
+  }
+
+  .formulario__titulo, .formulario__legenda {
+    display: inline-block;
+    width: auto;
+    margin-left: 2.5rem;
+    text-align: left;
+  }
+
+  .input-container {
+    width: 90%;
+  }
+
+  .input--smaller{
+    width: 381px;
+  }
+}

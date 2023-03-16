@@ -51,10 +51,10 @@ header nav ul li a {
   font-family: 'Sansita', sans-serif;
   padding: .5rem .5rem;
   font-size: 20px;
-  transition: .4s;
   -o-transition: .4s;
   -moz-transition: .4s;
   -webkit-transition: .4s;
+  transition: .4s;
   
 }
 
@@ -67,10 +67,10 @@ header nav ul li a::after {
   width: 100%;
   background-color: #E63946;
   top: 6px;
-  transition: .4s;
   -o-transition: .4s;
   -moz-transition: .4s;
   -webkit-transition: .4s;
+  transition: .4s;
 }
 
 header nav ul li a:hover {
@@ -94,7 +94,7 @@ header nav ul li a:hover::after {
   header {
     flex-direction: row;
     padding: 2rem 0;
-    gap: 80px;
+    gap: 10px;
   }
 
   header nav ul {
@@ -105,12 +105,12 @@ header nav ul li a:hover::after {
 
 @media screen and (min-width: 1024px) {
   header {
-    gap: 280px;
+    gap: 240px;
   }
 }
 
 @media screen and (min-width: 1200px) {
   header {
-    gap: 550px;
+    gap: 440px;
   }
 }

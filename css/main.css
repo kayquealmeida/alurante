@@ -66,10 +66,10 @@ section.cardapio div.btns__cardapio span {
   cursor: pointer;
   position: relative;
   top: 0;
-  transition: .4s;
   -o-transition: .4s;
   -moz-transition: .4s;
   -webkit-transition: .4s;
+  transition: .4s;
 }
 
 section.cardapio div.btns__cardapio span:hover {
